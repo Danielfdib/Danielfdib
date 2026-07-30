@@ -18,5 +18,5 @@
 
 ### 📊 GitHub Stats
 <p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Danielfdib&show_icons=true&theme=radical" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Danielfdib&show_icons=true&hide_border=true&count_private=true&theme=radical" />
 </p>
