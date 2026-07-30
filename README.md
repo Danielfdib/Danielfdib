@@ -16,6 +16,7 @@
 
 ---
 
-### 📊 GitHub Stats
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Danielfdib&show_icons=true&hide_border=true&count_private=true&theme=radical" />
-
+### 📊 GitHub Activity
+* 💻 Actively building automation workflows and integrating AI agents.
+* 🚀 Focused on practical applications using Python, n8n, Make, and Claude Code.
+* 📈 Repositories and projects update continuously as development progresses.
