@@ -1,16 +1,22 @@
-## Hi there 👋
+# Hi! 👋 I'm Daniel Dib
 
-<!--
-**Danielfdib/Danielfdib** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3 align="left">Industrial Engineer & MBA Candidate | AI Automation</h3>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 About Me
+* 🎓 Industrial Engineer and finishing my MBA at the Universidad Nacional de Santo Tomás de Aquino.
+* 🤖 Passionate about process optimization, management, and tech-driven development.
+* ⚙️ Focused on building advanced workflows and AI agent architectures using modern automation tools.
+
+### 🛠️ Tech Stack & Tools
+* **Automation & AI Agents:** `Claude Code`, `n8n`, `Make`, `Zapier`, `Anti Gravity`
+* **Development & Tools:** `Python`, `Visual Studio Code`
+* **Management & Processes:** Operations optimization, project management, and business modeling.
+
+---
+
+### 📊 GitHub Stats
+<p>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=Danielfdib&show_icons=true&theme=radical" />
+</p>
