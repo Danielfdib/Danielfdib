@@ -1,0 +1,92 @@
+{
+  "name": "WF N°1",
+  "nodes": [
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "={{ $json.chatInput }}",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "72fd9ced-5029-4722-b7df-e755e63c32a3",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [
+        80,
+        208
+      ],
+      "id": "68741312-581c-440b-af50-78bc545e750d",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "2YPFYimZrRYNNX1R",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "284721d3-e230-4f2d-9979-73e451b6accf",
+      "name": "When chat message received",
+      "webhookId": "93346ec2-4db1-4408-ab26-0d1106022fac"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "0b644e43-d453-469e-a70b-21245b318583",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "3a401be327e9a8779f67593d6d8d2e7551ba5e3af5f7f6a1cb8cf324daa5521a"
+  },
+  "nodeGroups": [],
+  "id": "8Ido6Sl5bzCuwFZw",
+  "tags": []
+}
